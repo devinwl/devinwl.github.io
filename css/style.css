@@ -1,0 +1,52 @@
+body {
+	background: #202020;
+	color: #9d9d9d;
+	font-family: 'Montserrat';
+	padding: 40px;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+	color: #5fd4b1;
+	transition:.2s;
+}
+
+a:hover {
+	color: #9cffe6;
+	text-shadow: 0 0 8px rgba(156, 255, 230, 0.40);
+}
+
+h1 {
+	text-transform: uppercase;
+	letter-spacing: -2px;
+	font-weight:400;
+	margin: 0;
+}
+
+h1 span {
+	display: inline-block;
+}
+
+h1 span.first {
+	color: #34d0ba;
+}
+
+h1 span.second {
+	color: #00a08a;
+}
+
+h2 {
+	font-size: 13px;
+	letter-spacing: 5.5px;
+	font-weight: 400;
+	margin: 0;
+	margin-left: 3px;
+	margin-top: -7px;
+	color: #9cffe6;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
