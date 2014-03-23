@@ -1,6 +1,7 @@
 html {
 	background: url('../images/cityscape.jpg') #202020;
 	background-size: cover;
+	background-position: 50% 0;
 }
 
 body {
@@ -10,10 +11,6 @@ body {
 	margin: 0;
 	text-transform: uppercase;
 	background-color: rgba(0,160,138,0.2);
-}
-
-.container {
-	z-index: 4;
 }
 
 a {
@@ -72,11 +69,4 @@ h2 {
 ul {
 	list-style-type: none;
 	padding: 0;
-}
-
-canvas {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -1;
 }
