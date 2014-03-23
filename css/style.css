@@ -1,5 +1,5 @@
 html {
-	background: url('../images/cityscape.jpg') #202020;
+	background: #202020;
 	background-size: cover;
 	background-position: 50% 0;
 }
@@ -9,7 +9,7 @@ body {
 	font-family: 'Montserrat';
 	margin: 0;
 	text-transform: uppercase;
-	background-color: rgba(0,160,138,0.2);
+	background-color: rgba(0,160,138,0.1);
 	height: 100%;
 }
 
@@ -28,7 +28,7 @@ a:after {
 
 a:hover {
 	color: #9cffe6;
-	text-shadow: 0 0 8px rgba(156, 255, 230, 0.40);
+	text-shadow: 0 0 10px rgba(156, 255, 230, 0.40);
 }
 
 a:hover:after {
@@ -54,6 +54,13 @@ h1 span.first {
 
 h1 span.second {
 	color: #00a08a;
+}
+
+h1 span.alert {
+	color: rgb(230,0,0);
+	transition:0.05s;
+	text-shadow: 0 0 2px rgba(230, 0, 0, 0.9);
+	font-size: 0;
 }
 
 h2 {
